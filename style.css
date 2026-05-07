@@ -1,0 +1,125 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("Imej/LEMBU.jpeg") no-repeat center/cover;
+    height: 1000px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: white;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 160px 10% 80px;
+    min-height: 100vh;
+    gap: 60px;
+}
+
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;    
+}
+
+
+.hero-image {
+    width: 500px;
+    height: 400px;
+    background: url("Imej/AMIRULAIMAN.jpg") center/cover no-repeat;
+
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+
+    margin: 100px auto; 
+}
+
+
+.main-title {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1.2;
+
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 12px;
+
+    margin-bottom: 25px;
+}
+
+
+.subtitle {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fffbfb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    padding: 15px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 12px;
+}
+
+
+.hero-image {
+    width: 500px;
+    height: 400px;
+    background: url("Imej/AMIRULAIMAN.jpg") center/cover no-repeat;
+
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 250px;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
